@@ -308,22 +308,22 @@ public class MainUI {
 
 			view = main_activity.findViewById(R.id.take_photo);
 			layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
-			layoutParams.addRule(align_parent_left, 0);
-			layoutParams.addRule(align_parent_right, RelativeLayout.TRUE);
+//			layoutParams.addRule(align_parent_left, 0);
+//			layoutParams.addRule(align_parent_right, RelativeLayout.TRUE);
 			view.setLayoutParams(layoutParams);
 			setViewRotation(view, ui_rotation);
 
 			view = main_activity.findViewById(R.id.switch_camera);
 			layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
-			layoutParams.addRule(align_parent_left, 0);
-			layoutParams.addRule(align_parent_right, RelativeLayout.TRUE);
+//			layoutParams.addRule(align_parent_left, 0);
+//			layoutParams.addRule(align_parent_right, RelativeLayout.TRUE);
 			view.setLayoutParams(layoutParams);
 			setViewRotation(view, ui_rotation);
 
 			view = main_activity.findViewById(R.id.pause_video);
 			layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
-			layoutParams.addRule(align_parent_left, 0);
-			layoutParams.addRule(align_parent_right, RelativeLayout.TRUE);
+//			layoutParams.addRule(align_parent_left, 0);
+//			layoutParams.addRule(align_parent_right, RelativeLayout.TRUE);
 			view.setLayoutParams(layoutParams);
 			setViewRotation(view, ui_rotation);
 
@@ -348,7 +348,8 @@ public class MainUI {
 			layoutParams.addRule(align_parent_top, 0);
 			layoutParams.addRule(align_parent_bottom, RelativeLayout.TRUE);
 			view.setLayoutParams(layoutParams);
-			view.setRotation(180.0f); // should always match the zoom_seekbar, so that zoom in and out are in the same directions
+			view.setRotation(180.0ls
+					f); // should always match the zoom_seekbar, so that zoom in and out are in the same directions
 	
 			view = main_activity.findViewById(R.id.zoom_seekbar);
 			layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
