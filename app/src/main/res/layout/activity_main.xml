@@ -51,7 +51,6 @@
         android:layout_above="@+id/take_photo"
         android:background="@null"
         android:layout_centerHorizontal="true"
-        android:visibility="gone"
         />
 
     <ImageButton

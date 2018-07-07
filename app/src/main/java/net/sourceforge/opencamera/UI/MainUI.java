@@ -348,9 +348,8 @@ public class MainUI {
 			layoutParams.addRule(align_parent_top, 0);
 			layoutParams.addRule(align_parent_bottom, RelativeLayout.TRUE);
 			view.setLayoutParams(layoutParams);
-			view.setRotation(180.0ls
-					f); // should always match the zoom_seekbar, so that zoom in and out are in the same directions
-	
+			view.setRotation(180.0f); // should always match the zoom_seekbar, so that zoom in and out are in the same directions
+
 			view = main_activity.findViewById(R.id.zoom_seekbar);
 			layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
 			// if we are showing the zoom control, the align next to that; otherwise have it aligned close to the edge of screen
